@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "description": "Hungarian language reference — verbs, irregular forms, and more.",
+  "modules": [
+    {
+      "id": "verbs",
+      "type": "verbs",
+      "label": "Verbs",
+      "icon": "🔤",
+      "description": "Hungarian verbs grouped by semantic category. Each family shows how adding a prefix (igekötő) shifts the meaning, with two example sentences per form.",
+      "file": "verbs.json",
+      "categories": [
+        {
+          "id": "objectactions",
+          "label": "Object actions",
+          "icon": "🤲",
+          "description": "Holding, pushing, pulling, throwing, giving — what you do to or with things."
+        },
+        {
+          "id": "movement",
+          "label": "Movement & direction",
+          "icon": "🚶",
+          "description": "Going, transport, turning — direction encoded in the prefix."
+        },
+        {
+          "id": "speaking",
+          "label": "Speaking & communication",
+          "icon": "💬",
+          "description": "Saying, writing, showing, asking — verbal exchange."
+        },
+        {
+          "id": "thinking",
+          "label": "Thinking & deciding",
+          "icon": "🧠",
+          "description": "Understanding, planning, finding, solving."
+        },
+        {
+          "id": "physical",
+          "label": "Physical actions",
+          "icon": "⚙️",
+          "description": "Cutting, filling, breaking, folding — manipulation of matter."
+        },
+        {
+          "id": "statechange",
+          "label": "State changes",
+          "icon": "🔄",
+          "description": "Becoming, sleeping, deteriorating, using — changes in condition."
+        },
+        {
+          "id": "admin",
+          "label": "Administrative & formal",
+          "icon": "📋",
+          "description": "Ordering, reporting, booking, distributing."
+        },
+        {
+          "id": "emotions",
+          "label": "Emotions & social",
+          "icon": "❤️",
+          "description": "Calling, waiting, allowing, greeting, following."
+        },
+        {
+          "id": "digital",
+          "label": "Digital & tech",
+          "icon": "💻",
+          "description": "Downloading, switching, logging in — modern vocabulary."
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "type": "irregular",
+      "label": "Irregular verbs",
+      "icon": "⚠️",
+      "description": "Verbs with unpredictable stem changes across tenses. Full conjugation tables with example sentences.",
+      "file": "irregular.json",
+      "categories": [
+        {
+          "id": "irregular",
+          "label": "All irregular verbs",
+          "icon": "⚠️",
+          "description": "sz-v alternation, suppletive tenses, and defective modals."
+        }
+      ]
+    }
+  ]
+}

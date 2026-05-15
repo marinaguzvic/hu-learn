@@ -1,0 +1,12 @@
+# docker-compose.dev.yml
+# Local development override — builds the image from source instead of pulling.
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build
+
+services:
+  hu-learn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hu-learn:dev

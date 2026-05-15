@@ -1,0 +1,17 @@
+# Keep build context small — only what the Dockerfile actually COPYs
+*
+!app/index.html
+!app/css/**
+!app/js/**
+!docker/nginx.conf
+
+# Never include data files in the image — they live on the NAS
+app/data/
+
+# Common clutter
+.git
+.gitignore
+*.md
+docker-compose*.yml
+build.sh
+.github/

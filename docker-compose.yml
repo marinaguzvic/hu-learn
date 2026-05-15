@@ -1,0 +1,35 @@
+version: "3.9"
+
+# ── Usage ─────────────────────────────────────────────────────────────────────
+#
+# Pull & run a published image (production / TrueNAS equivalent):
+#   IMAGE=ghcr.io/you/hu-learn:latest docker compose up -d
+#
+# Build locally and run (development):
+#   docker compose --file docker-compose.yml --file docker-compose.dev.yml up -d
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  hu-learn:
+    # Set IMAGE when running, e.g.:
+    #   export IMAGE=ghcr.io/youruser/hu-learn:latest
+    # Defaults to a local build tag for convenience.
+    image: ${IMAGE:-hu-learn:latest}
+
+    container_name: hu-learn
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8420}:80"
+
+    volumes:
+      # ── TrueNAS: change this path to your dataset ──────────────────────────
+      # The container serves /usr/share/nginx/html/data/ directly.
+      # Edit any JSON file on the NAS and refresh — no restart needed.
+      - ${DATA_PATH:-./app/data}:/usr/share/nginx/html/data:ro
+
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/data/manifest.json"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

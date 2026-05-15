@@ -1,0 +1,446 @@
+{
+  "verbs": [
+    {
+      "inf": "lenni",
+      "base": "van / lesz / volt",
+      "sub": "to be — the most irregular verb in Hungarian",
+      "pattern": "Completely suppletive: present uses <b>van</b>, future uses <b>lesz</b>, past uses <b>volt</b>. In 3rd person present, the copula is dropped in predicative sentences ('tanár' = he is a teacher). Negation uses <b>nincs</b> (not 'nem van').",
+      "forms": [
+        { "label": "Present (van)", "rows": [["én","vagyok"],["te","vagy"],["ő","van"],["mi","vagyunk"],["ti","vagytok"],["ők","vannak"]] },
+        { "label": "Future (lesz)", "rows": [["én","leszek"],["te","leszel"],["ő","lesz"],["mi","leszünk"],["ti","lesztek"],["ők","lesznek"]] },
+        { "label": "Past (volt)",   "rows": [["én","voltam"],["te","voltál"],["ő","volt"],["mi","voltunk"],["ti","voltatok"],["ők","voltak"]] },
+        { "label": "Conditional (lenne)", "rows": [["én","lennék"],["te","lennél"],["ő","lenne"],["mi","lennénk"],["ti","lennétek"],["ők","lennének"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"lenni"},{"l":"present","f":"van"},{"l":"future","f":"lesz"},
+        {"l":"past","f":"volt"},{"l":"negative present","f":"nincs / nincsen"},{"l":"imperative","f":"legyen!"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "megvan",  "en": "to have; to exist; to be done", "ex": [["Megvan a könyv?","Do you have the book?"],["Megvagyunk.","We're fine / We manage."]] },
+        { "p": "el-",  "hu": "elvan",   "en": "to get along; to be away",      "ex": [["Elvan egyedül is.","She gets along on her own."],["Elvagyunk itt.","We're away here."]] }
+      ],
+      "examples": [
+        {"tag":"present",    "hu":"Magyar vagyok.",        "en":"I am Hungarian."},
+        {"tag":"present",    "hu":"Orvos.",                "en":"He is a doctor. (no 'van' in 3rd person predicates)"},
+        {"tag":"negative",   "hu":"Nincs pénzem.",         "en":"I have no money. (nincs = there is no)"},
+        {"tag":"negative",   "hu":"Nincs otthon.",         "en":"She's not at home."},
+        {"tag":"future",     "hu":"Holnap orvos leszek.",  "en":"Tomorrow I will be a doctor."},
+        {"tag":"past",       "hu":"Fáradt voltam.",        "en":"I was tired."},
+        {"tag":"conditional","hu":"Jó lenne.",             "en":"It would be nice."},
+        {"tag":"imperative", "hu":"Legyen türelmes!",      "en":"Be patient! (formal)"}
+      ]
+    },
+    {
+      "inf": "enni",
+      "base": "eszik",
+      "sub": "to eat — sz-v alternation",
+      "pattern": "Present stem: <b>esz-</b>. Past stem: <b>ev-</b> (evett). The sz drops and v appears in past tense — a classic sz-v alternation verb. Imperative: <b>egyél! / egyen!</b>",
+      "forms": [
+        { "label": "Present", "rows": [["én","eszem"],["te","eszel"],["ő","eszik"],["mi","eszünk"],["ti","esztek"],["ők","esznek"]] },
+        { "label": "Past",    "rows": [["én","ettem"],["te","ettél"],["ő","evett"],["mi","ettünk"],["ti","ettetek"],["ők","ettek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"enni"},{"l":"present 3sg","f":"eszik"},
+        {"l":"past 3sg","f":"evett"},{"l":"imperative","f":"egyél! / egyen!"},{"l":"verbal noun","f":"evés"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "megeszik", "en": "to eat (something) up completely", "ex": [["Megeszi a vacsorát.","She eats up the dinner."],["Megette az egészet.","He ate the whole thing."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Mit eszel?",        "en":"What are you eating?"},
+        {"tag":"present",   "hu":"Húst eszik.",        "en":"She eats meat."},
+        {"tag":"past",      "hu":"Ettem egy almát.",   "en":"I ate an apple."},
+        {"tag":"past",      "hu":"Jót evett.",         "en":"He ate well."},
+        {"tag":"imperative","hu":"Egyél valamit!",     "en":"Eat something!"},
+        {"tag":"imperative","hu":"Egyen lassan.",      "en":"Eat slowly. (formal)"}
+      ]
+    },
+    {
+      "inf": "inni",
+      "base": "iszik",
+      "sub": "to drink — sz-v alternation",
+      "pattern": "Present stem: <b>isz-</b>. Past stem: <b>iv-</b> (ivott). Imperative: <b>igyál! / igyon!</b>. Note the 1st sg present: <em>iszom</em> (not iszek).",
+      "forms": [
+        { "label": "Present", "rows": [["én","iszom"],["te","iszol"],["ő","iszik"],["mi","iszunk"],["ti","isztok"],["ők","isznak"]] },
+        { "label": "Past",    "rows": [["én","ittam"],["te","ittál"],["ő","ivott"],["mi","ittunk"],["ti","ittatok"],["ők","ittak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"inni"},{"l":"present 3sg","f":"iszik"},
+        {"l":"past 3sg","f":"ivott"},{"l":"imperative","f":"igyál! / igyon!"},{"l":"verbal noun","f":"ivás"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "megiszik", "en": "to drink (something) up", "ex": [["Megissza a kávét.","She drinks up the coffee."],["Megvette és megitta.","He bought it and drank it."]] },
+        { "p": "ki-",  "hu": "kiissza",  "en": "to drain a glass",        "ex": [["Kiissza a poharát.","He drains his glass."],["Kiitta az utolsó cseppet.","She drank the last drop."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Mit iszol?",              "en":"What are you drinking?"},
+        {"tag":"present",   "hu":"Sört iszik.",             "en":"He drinks beer."},
+        {"tag":"past",      "hu":"Ittunk egy üveg bort.",   "en":"We drank a bottle of wine."},
+        {"tag":"past",      "hu":"Sokat ivott.",            "en":"He drank a lot."},
+        {"tag":"imperative","hu":"Igyál vizet!",            "en":"Drink water!"}
+      ]
+    },
+    {
+      "inf": "tenni",
+      "base": "tesz",
+      "sub": "to put / to do — sz-v alternation",
+      "pattern": "Present stem: <b>tesz-</b>. Past stem: <b>tett-</b>. Imperative: <b>tedd! / tegyen!</b>. The -sz drops before past suffixes. One of the most common irregular verbs.",
+      "forms": [
+        { "label": "Present", "rows": [["én","teszek"],["te","teszel"],["ő","tesz"],["mi","teszünk"],["ti","tesztek"],["ők","tesznek"]] },
+        { "label": "Past",    "rows": [["én","tettem"],["te","tettél"],["ő","tett"],["mi","tettünk"],["ti","tettetek"],["ők","tettek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"tenni"},{"l":"present 3sg","f":"tesz"},
+        {"l":"past 3sg","f":"tett"},{"l":"imperative","f":"tedd! / tegyen!"},{"l":"verbal noun","f":"tevés"}
+      ],
+      "prefixes": [
+        { "p": "be-",    "hu": "betesz",   "en": "to put in, to insert",          "ex": [["Beteszi a kulcsot a zárba.","She puts the key in the lock."],["Betette a kocsit a garázsba.","He put the car in the garage."]] },
+        { "p": "ki-",    "hu": "kitesz",   "en": "to put out, to expose, to post", "ex": [["Kiteszi a táblát.","He puts out the sign."],["Kiteszi magát a veszélynek.","She exposes herself to danger."]] },
+        { "p": "le-",    "hu": "letesz",   "en": "to put down, to set down",       "ex": [["Leteszi a táskát.","He puts down the bag."],["Letette a vizsgát.","She passed the exam."]] },
+        { "p": "fel-",   "hu": "feltesz",  "en": "to put up; to pose (a question)","ex": [["Felteszi a kérdést.","She poses the question."],["Felteszi a kalapját.","He puts on his hat."]] },
+        { "p": "hozzá-", "hu": "hozzátesz","en": "to add to, to contribute",       "ex": [["Hozzátesz valamit.","He adds something."],["Nincs mit hozzátennem.","I have nothing to add."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Mit teszel?",         "en":"What are you doing / putting?"},
+        {"tag":"present",   "hu":"Mindent megtesz értem.","en":"She does everything for me."},
+        {"tag":"past",      "hu":"Mit tettél?",         "en":"What did you do?"},
+        {"tag":"past",      "hu":"Jól tette.",          "en":"He did the right thing."},
+        {"tag":"imperative","hu":"Tedd le!",            "en":"Put it down!"},
+        {"tag":"imperative","hu":"Tegye be a táskába.", "en":"Put it in the bag. (formal)"}
+      ]
+    },
+    {
+      "inf": "venni",
+      "base": "vesz",
+      "sub": "to take / to buy — sz-v alternation",
+      "pattern": "Present stem: <b>vesz-</b>. Past stem: <b>vett-</b>. Imperative: <b>vedd! / vegyen!</b>. The -sz drops in past. Very common — also appears in the Physical and Object Actions categories.",
+      "forms": [
+        { "label": "Present", "rows": [["én","veszek"],["te","veszel"],["ő","vesz"],["mi","veszünk"],["ti","vesztek"],["ők","vesznek"]] },
+        { "label": "Past",    "rows": [["én","vettem"],["te","vettél"],["ő","vett"],["mi","vettünk"],["ti","vettetek"],["ők","vettek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"venni"},{"l":"present 3sg","f":"vesz"},
+        {"l":"past 3sg","f":"vett"},{"l":"imperative","f":"vedd! / vegyen!"},{"l":"verbal noun","f":"vétel"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "megvesz", "en": "to buy (complete the purchase)",   "ex": [["Megveszi a házat.","She buys the house."],["Megvetted?","Did you buy it?"]] },
+        { "p": "el-",  "hu": "elvesz",  "en": "to take away; to lose",            "ex": [["Elveszi tőle.","He takes it from her."],["Elveszett a kulcs.","The key was lost."]] },
+        { "p": "fel-", "hu": "felvesz", "en": "to pick up; to put on; to hire; to record", "ex": [["Felveszi a kabátját.","She puts on her coat."],["Felvesz alkalmazottat.","He hires an employee."]] },
+        { "p": "ki-",  "hu": "kivesz",  "en": "to take out; to withdraw; to take time off", "ex": [["Kiveszi a pénzt a bankból.","She withdraws money."],["Kivesz egy hét szabadságot.","He takes a week off."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Veszek egy kenyeret.", "en":"I'll buy a loaf of bread."},
+        {"tag":"present",   "hu":"Mit vesz?",            "en":"What is she buying?"},
+        {"tag":"past",      "hu":"Vettem egy autót.",    "en":"I bought a car."},
+        {"tag":"past",      "hu":"Vett egy mély levegőt.","en":"He took a deep breath."},
+        {"tag":"imperative","hu":"Vedd fel a kabátod!", "en":"Put on your coat!"},
+        {"tag":"imperative","hu":"Vegyen egyet.",       "en":"Take one. (formal, at a market)"}
+      ]
+    },
+    {
+      "inf": "vinni",
+      "base": "visz",
+      "sub": "to carry / to take somewhere — sz-v alternation",
+      "pattern": "Present stem: <b>visz-</b>. Past stem: <b>vitt-</b>. Imperative: <b>vidd! / vigyen!</b>. Like vesz but for carrying (directional). The prefix changes where you're carrying to.",
+      "forms": [
+        { "label": "Present", "rows": [["én","viszek"],["te","viszel"],["ő","visz"],["mi","viszünk"],["ti","visztek"],["ők","visznek"]] },
+        { "label": "Past",    "rows": [["én","vittem"],["te","vittél"],["ő","vitt"],["mi","vittünk"],["ti","vittetek"],["ők","vittek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"vinni"},{"l":"present 3sg","f":"visz"},
+        {"l":"past 3sg","f":"vitt"},{"l":"imperative","f":"vidd! / vigyen!"},{"l":"verbal noun","f":"vivés"}
+      ],
+      "prefixes": [
+        { "p": "el-",     "hu": "elvisz",    "en": "to take away, to carry off", "ex": [["Elviszi az esernyőjét.","He takes his umbrella."],["A szél elvitte.","The wind carried it away."]] },
+        { "p": "be-",     "hu": "bevisz",    "en": "to take in, to bring inside", "ex": [["Beviszi a gyereket.","She takes the child in."],["Beviszi a csomagot.","He brings the parcel inside."]] },
+        { "p": "vissza-", "hu": "visszavisz","en": "to take back",                "ex": [["Visszaviszi a könyvet.","She takes the book back."],["Visszavitte a kocsit.","He took the car back."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Viszi a táskát.",       "en":"She carries the bag."},
+        {"tag":"present",   "hu":"Hova viszed?",          "en":"Where are you taking it?"},
+        {"tag":"past",      "hu":"Vittük a csomagokat.",  "en":"We carried the bags."},
+        {"tag":"past",      "hu":"Apám vitt iskolába.",   "en":"My father took me to school."},
+        {"tag":"imperative","hu":"Vidd be!",              "en":"Take it inside!"}
+      ]
+    },
+    {
+      "inf": "hinni",
+      "base": "hisz",
+      "sub": "to believe — sz-v alternation",
+      "pattern": "Present stem: <b>hisz-</b>. Past stem: <b>hitt-</b>. Imperative: <b>hidd el! / higgyen!</b>. Follows the same pattern as tesz/vesz/visz.",
+      "forms": [
+        { "label": "Present", "rows": [["én","hiszek"],["te","hiszel"],["ő","hisz"],["mi","hiszünk"],["ti","hisztek"],["ők","hisznek"]] },
+        { "label": "Past",    "rows": [["én","hittem"],["te","hittél"],["ő","hitt"],["mi","hittünk"],["ti","hittetek"],["ők","hittek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"hinni"},{"l":"present 3sg","f":"hisz"},
+        {"l":"past 3sg","f":"hitt"},{"l":"imperative","f":"hidd el! / higgyen!"}
+      ],
+      "prefixes": [
+        { "p": "el-", "hu": "elhisz", "en": "to believe (something told to you)", "ex": [["Elhiszi, amit mondasz.","She believes what you say."],["Nem hiszem el!","I can't believe it!"]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Hiszek neked.",    "en":"I believe you."},
+        {"tag":"present",   "hu":"Ő nem hisz benne.","en":"She doesn't believe in it."},
+        {"tag":"past",      "hu":"Hittem neki.",     "en":"I believed him."},
+        {"tag":"past",      "hu":"Azt hitte, hogy igaz.","en":"She thought it was true."},
+        {"tag":"imperative","hu":"Hidd el!",         "en":"Believe it!"}
+      ]
+    },
+    {
+      "inf": "jönni",
+      "base": "jön",
+      "sub": "to come — highly irregular across all tenses",
+      "pattern": "Present <b>jön-</b>, past <b>jött-</b>. The informal imperative <b>gyere!</b> is completely different from the verb stem — one of the most surprising forms in Hungarian.",
+      "forms": [
+        { "label": "Present", "rows": [["én","jövök"],["te","jössz"],["ő","jön"],["mi","jövünk"],["ti","jöttök"],["ők","jönnek"]] },
+        { "label": "Past",    "rows": [["én","jöttem"],["te","jöttél"],["ő","jött"],["mi","jöttünk"],["ti","jöttetek"],["ők","jöttek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"jönni"},{"l":"present 3sg","f":"jön"},{"l":"past 3sg","f":"jött"},
+        {"l":"imperative informal","f":"gyere!"},{"l":"imperative formal","f":"jöjjön!"},{"l":"verbal noun","f":"jövetel"}
+      ],
+      "prefixes": [
+        { "p": "be-",     "hu": "bejön",     "en": "to come in",      "ex": [["Bejön a szobába.","He comes into the room."],["Jól bejött.","It worked out well."]] },
+        { "p": "ki-",     "hu": "kijön",     "en": "to come out; to get along", "ex": [["Kijön a házból.","He comes out of the house."],["Jól kijönnek egymással.","They get along well."]] },
+        { "p": "el-",     "hu": "eljön",     "en": "to come over, to attend", "ex": [["Eljön a bulira.","She comes to the party."],["Eljössz?","Are you coming?"]] },
+        { "p": "vissza-", "hu": "visszajön", "en": "to come back",    "ex": [["Visszajön öt perc múlva.","He'll be back in five minutes."],["Visszajövök!","I'll be back!"]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Jövök!",         "en":"I'm coming!"},
+        {"tag":"present",   "hu":"Mikor jössz?",   "en":"When are you coming?"},
+        {"tag":"past",      "hu":"Jött egy levél.","en":"A letter came."},
+        {"tag":"past",      "hu":"Mikor jöttél?",  "en":"When did you arrive?"},
+        {"tag":"imperative","hu":"Gyere ide!",     "en":"Come here! (informal)"},
+        {"tag":"imperative","hu":"Jöjjön be!",     "en":"Come in! (formal)"}
+      ]
+    },
+    {
+      "inf": "menni",
+      "base": "megy",
+      "sub": "to go — suppletive past tense",
+      "pattern": "Present uses <b>megy-</b>, but past uses a completely different stem: <b>ment-</b>. Imperative: <b>menj! / menjen!</b>. Also covered in Movement — shown here for full conjugation.",
+      "forms": [
+        { "label": "Present", "rows": [["én","megyek"],["te","mész"],["ő","megy"],["mi","megyünk"],["ti","mentek"],["ők","mennek"]] },
+        { "label": "Past",    "rows": [["én","mentem"],["te","mentél"],["ő","ment"],["mi","mentünk"],["ti","mentetek"],["ők","mentek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"menni"},{"l":"present 3sg","f":"megy"},
+        {"l":"past 3sg","f":"ment"},{"l":"imperative","f":"menj! / menjen!"},{"l":"verbal noun","f":"menet"}
+      ],
+      "prefixes": [
+        { "p": "el-",     "hu": "elmegy",     "en": "to go away",  "ex": [["Elmegy otthonról.","He leaves home."],["Elment a boltba.","She went to the shop."]] },
+        { "p": "vissza-", "hu": "visszamegy", "en": "to go back",  "ex": [["Visszamegy a szobájába.","He goes back to his room."],["Visszament dolgozni.","She went back to work."]] },
+        { "p": "át-",     "hu": "átmegy",     "en": "to cross; to pass (exam)", "ex": [["Átment a vizsgán.","She passed the exam."],["Átmegy az úttesten.","He crosses the road."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Hová mész?",     "en":"Where are you going?"},
+        {"tag":"present",   "hu":"Dolgozni megyek.","en":"I'm going to work."},
+        {"tag":"past",      "hu":"Hová mentél?",   "en":"Where did you go?"},
+        {"tag":"past",      "hu":"Moziba ment.",   "en":"She went to the cinema."},
+        {"tag":"imperative","hu":"Menj el!",        "en":"Go away!"},
+        {"tag":"imperative","hu":"Menjen be!",      "en":"Go in! (formal)"}
+      ]
+    },
+    {
+      "inf": "aludni",
+      "base": "alszik",
+      "sub": "to sleep — sz-d alternation",
+      "pattern": "Present stem: <b>alsz-</b>. Past stem: <b>alud-</b>. A d appears in the past — this sz→d alternation is shared with <em>fekszik</em>. Imperative: <b>aludj! / aludjon!</b>",
+      "forms": [
+        { "label": "Present", "rows": [["én","alszom"],["te","alszol"],["ő","alszik"],["mi","alszunk"],["ti","alszotok"],["ők","alszanak"]] },
+        { "label": "Past",    "rows": [["én","aludtam"],["te","aludtál"],["ő","aludt"],["mi","aludtunk"],["ti","aludtatok"],["ők","aludtak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"aludni"},{"l":"present 3sg","f":"alszik"},
+        {"l":"past 3sg","f":"aludt"},{"l":"imperative","f":"aludj! / aludjon!"},{"l":"verbal noun","f":"alvás"}
+      ],
+      "prefixes": [
+        { "p": "el-", "hu": "elalszik", "en": "to fall asleep", "ex": [["Elalszik a kanapén.","He falls asleep on the sofa."],["Elaludt a tévé előtt.","She fell asleep in front of the TV."]] },
+        { "p": "el-", "hu": "elaltat",  "en": "to put to sleep; to anaesthetise", "ex": [["Az orvos elaltatja.","The doctor anaesthetises her."],["Elaltatják a kutyát.","They put the dog to sleep."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Sokat alszik.",          "en":"She sleeps a lot."},
+        {"tag":"present",   "hu":"Mélyen alszik.",         "en":"He is sleeping deeply."},
+        {"tag":"past",      "hu":"Tizenkét órát aludtam.","en":"I slept twelve hours."},
+        {"tag":"past",      "hu":"Aludt egy kicsit.",      "en":"She slept for a little while."},
+        {"tag":"imperative","hu":"Aludj már!",             "en":"Go to sleep already!"},
+        {"tag":"imperative","hu":"Aludjon jól!",           "en":"Sleep well! (formal)"}
+      ]
+    },
+    {
+      "inf": "feküdni",
+      "base": "fekszik",
+      "sub": "to lie down — sz-d alternation",
+      "pattern": "Present stem: <b>feksz-</b>. Past stem: <b>feküd-</b>. Same sz→d pattern as alszik. Imperative: <b>feküdj! / feküdjön!</b>",
+      "forms": [
+        { "label": "Present", "rows": [["én","fekszem"],["te","fekszel"],["ő","fekszik"],["mi","fekszünk"],["ti","fekszetek"],["ők","fekszenek"]] },
+        { "label": "Past",    "rows": [["én","feküdtem"],["te","feküdtél"],["ő","feküdt"],["mi","feküdtünk"],["ti","feküdtetek"],["ők","feküdtek"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"feküdni"},{"l":"present 3sg","f":"fekszik"},
+        {"l":"past 3sg","f":"feküdt"},{"l":"imperative","f":"feküdj! / feküdjön!"},{"l":"verbal noun","f":"fekvés"}
+      ],
+      "prefixes": [
+        { "p": "le-", "hu": "lefekszik", "en": "to go to bed, to lie down", "ex": [["Lefekszik éjféltájban.","She goes to bed around midnight."],["Lefekszik pihenni.","He lies down to rest."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Az ágyban fekszik.","en":"She is lying in bed."},
+        {"tag":"present",   "hu":"Betegen fekszik.",  "en":"He is laid up sick."},
+        {"tag":"past",      "hu":"Feküdtem egész nap.","en":"I lay down all day."},
+        {"tag":"past",      "hu":"Feküdt és olvasott.","en":"She lay there reading."},
+        {"tag":"imperative","hu":"Feküdj le!",        "en":"Lie down!"}
+      ]
+    },
+    {
+      "inf": "adni",
+      "base": "ad",
+      "sub": "to give — short stem, irregular past",
+      "pattern": "Present: <b>ad-</b>. Past: <b>adott</b>. Imperative: <b>adj! / adjon!</b>. Very common — the full prefix family is in the Object Actions category.",
+      "forms": [
+        { "label": "Present", "rows": [["én","adok"],["te","adsz"],["ő","ad"],["mi","adunk"],["ti","adtok"],["ők","adnak"]] },
+        { "label": "Past",    "rows": [["én","adtam"],["te","adtál"],["ő","adott"],["mi","adtunk"],["ti","adtatok"],["ők","adtak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"adni"},{"l":"present 3sg","f":"ad"},
+        {"l":"past 3sg","f":"adott"},{"l":"imperative","f":"adj! / adjon!"},{"l":"verbal noun","f":"adás"}
+      ],
+      "prefixes": [
+        { "p": "át-",     "hu": "átad",     "en": "to hand over",  "ex": [["Átadja a kulcsot.","She hands over the key."],["Átadta a feladatát.","He passed on his task."]] },
+        { "p": "vissza-", "hu": "visszaad", "en": "to give back",  "ex": [["Visszaadja a pénzt.","He gives back the money."],["Visszaadta a könyvet.","She returned the book."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Adok neked egyet.",   "en":"I'll give you one."},
+        {"tag":"present",   "hu":"Ad egy puszit.",      "en":"She gives a kiss."},
+        {"tag":"past",      "hu":"Adott egy tanácsot.", "en":"He gave a piece of advice."},
+        {"tag":"past",      "hu":"Mit adtál neki?",     "en":"What did you give her?"},
+        {"tag":"imperative","hu":"Add ide!",            "en":"Give it here!"},
+        {"tag":"imperative","hu":"Adjon egy kilót.",    "en":"Give me a kilo. (formal, at a market)"}
+      ]
+    },
+    {
+      "inf": "látni",
+      "base": "lát",
+      "sub": "to see — irregular past and imperative",
+      "pattern": "Present: <b>lát-</b>. Past: <b>látott</b>. Imperative: <b>láss! / lásson!</b>. Common in expressions: <em>látom</em> (I see / I understand), <em>meglátjuk</em> (we'll see).",
+      "forms": [
+        { "label": "Present", "rows": [["én","látok"],["te","látsz"],["ő","lát"],["mi","látunk"],["ti","láttok"],["ők","látnak"]] },
+        { "label": "Past",    "rows": [["én","láttam"],["te","láttál"],["ő","látott"],["mi","láttunk"],["ti","láttatok"],["ők","láttak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"látni"},{"l":"present 3sg","f":"lát"},
+        {"l":"past 3sg","f":"látott"},{"l":"imperative","f":"láss! / lásson!"},{"l":"verbal noun","f":"látás"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "meglát",     "en": "to catch sight of, to spot", "ex": [["Meglátja az autóbuszt.","She spots the bus."],["Megláttam őt a tömegben.","I spotted him in the crowd."]] },
+        { "p": "el-",  "hu": "ellát",      "en": "to see far; to supply/provide", "ex": [["Ellát a horizontig.","He can see to the horizon."],["Ellátta őket élelemmel.","She supplied them with food."]] },
+        { "p": "be-",  "hu": "belát",      "en": "to see into; to acknowledge", "ex": [["Belátja a hibáját.","She acknowledges her mistake."],["Belát az ablakon.","He can see in through the window."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Látom.",            "en":"I see. / I understand."},
+        {"tag":"present",   "hu":"Nem látja jól.",    "en":"She doesn't see well."},
+        {"tag":"past",      "hu":"Láttam a filmet.",  "en":"I saw the film."},
+        {"tag":"past",      "hu":"Nem láttam semmit.","en":"I didn't see anything."},
+        {"tag":"imperative","hu":"Lásd be!",          "en":"Accept it! / Acknowledge it!"}
+      ]
+    },
+    {
+      "inf": "hallani",
+      "base": "hall",
+      "sub": "to hear — note: hallgat (to listen) is a separate verb",
+      "pattern": "Present: <b>hall-</b>. Past: <b>hallott</b>. Imperative: <b>hallj! / halljon!</b>. Important: <em>hall</em> = to hear (passive sense); <em>hallgat</em> = to listen (active).",
+      "forms": [
+        { "label": "Present", "rows": [["én","hallok"],["te","hallasz"],["ő","hall"],["mi","hallunk"],["ti","hallotok"],["ők","hallanak"]] },
+        { "label": "Past",    "rows": [["én","hallottam"],["te","hallottál"],["ő","hallott"],["mi","hallottunk"],["ti","hallottatok"],["ők","hallottak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"hallani"},{"l":"present 3sg","f":"hall"},
+        {"l":"past 3sg","f":"hallott"},{"l":"note","f":"hallgat = to listen (different verb!)"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "meghall",   "en": "to hear and register; to overhear", "ex": [["Meghallotta a nevét.","She heard her name called."],["Meghallotta, amit mondtam.","He overheard what I said."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Hallom.",             "en":"I hear (you). / I'm listening."},
+        {"tag":"present",   "hu":"Nem hallok semmit.", "en":"I can't hear anything."},
+        {"tag":"past",      "hu":"Hallottam a híreket.","en":"I heard the news."},
+        {"tag":"past",      "hu":"Nem hallottad?",     "en":"Didn't you hear?"},
+        {"tag":"imperative","hu":"Hallj meg!",         "en":"Listen to me! Hear me!"}
+      ]
+    },
+    {
+      "inf": "tudni",
+      "base": "tud",
+      "sub": "to know / to be able to — modal use",
+      "pattern": "Present: <b>tud-</b>. Past: <b>tudott</b>. Used both as 'to know (a fact)' and as a modal meaning 'can'. With an infinitive: <em>tud úszni</em> = can swim.",
+      "forms": [
+        { "label": "Present", "rows": [["én","tudok"],["te","tudsz"],["ő","tud"],["mi","tudunk"],["ti","tudtok"],["ők","tudnak"]] },
+        { "label": "Past",    "rows": [["én","tudtam"],["te","tudtál"],["ő","tudott"],["mi","tudtunk"],["ti","tudtatok"],["ők","tudtak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"tudni"},{"l":"present 3sg","f":"tud"},
+        {"l":"past 3sg","f":"tudott"},{"l":"modal","f":"tud + inf. = can"},{"l":"verbal noun","f":"tudás (knowledge)"}
+      ],
+      "prefixes": [
+        { "p": "meg-", "hu": "megtud", "en": "to find out, to learn (a fact)", "ex": [["Megtudja az igazságot.","She finds out the truth."],["Megtudtam, mi történt.","I found out what happened."]] }
+      ],
+      "examples": [
+        {"tag":"modal",   "hu":"Tudsz úszni?",          "en":"Can you swim?"},
+        {"tag":"modal",   "hu":"Nem tudom megcsinálni.","en":"I can't do it."},
+        {"tag":"factual", "hu":"Tudom a választ.",       "en":"I know the answer."},
+        {"tag":"factual", "hu":"Nem tudom.",             "en":"I don't know."},
+        {"tag":"past",    "hu":"Tudtam, hogy igaz.",     "en":"I knew it was true."},
+        {"tag":"past",    "hu":"Nem tudtam menni.",      "en":"I wasn't able to go."}
+      ]
+    },
+    {
+      "inf": "kell / lehet / szabad",
+      "base": "Defective verbs",
+      "sub": "impersonal modals — 3rd person singular only",
+      "pattern": "These verbs have no full conjugation. They take a dative subject (<em>nekem kell</em> = I have to, lit. 'to-me it-is-necessary') or a bare infinitive. No imperative exists. The subject is always in dative case.",
+      "forms": [
+        { "label": "kell — must/need", "rows": [["present","kell"],["past","kellett"],["conditional","kellene"],["future","kelleni fog"]] },
+        { "label": "lehet — can/possible", "rows": [["present","lehet"],["past","lehetett"],["conditional","lehetne"],["future","lehetni fog"]] }
+      ],
+      "keyforms": [
+        {"l":"kell + inf.","f":"must"},{"l":"nem kell","f":"don't have to"},
+        {"l":"lehet + inf.","f":"it's possible to"},{"l":"nem lehet","f":"it's impossible / forbidden"},
+        {"l":"szabad + inf.","f":"it's allowed to"},{"l":"nem szabad","f":"not allowed"}
+      ],
+      "prefixes": [],
+      "examples": [
+        {"tag":"kell",  "hu":"Mennem kell.",         "en":"I have to go. (lit. to-me it-is-necessary to-go)"},
+        {"tag":"kell",  "hu":"Nem kell sietni.",     "en":"There's no need to hurry."},
+        {"tag":"kell",  "hu":"Mi kell?",             "en":"What do you need?"},
+        {"tag":"lehet", "hu":"Lehet jönni?",         "en":"Is it okay to come in?"},
+        {"tag":"lehet", "hu":"Nem lehet tudni.",     "en":"There's no way to know."},
+        {"tag":"szabad","hu":"Szabad belépni?",      "en":"May I come in?"},
+        {"tag":"szabad","hu":"Nem szabad dohányozni.","en":"Smoking is not allowed."}
+      ]
+    },
+    {
+      "inf": "játszani",
+      "base": "játszik",
+      "sub": "to play — ik-verb",
+      "pattern": "An <em>ik</em>-verb: 3rd person singular ends in <b>-ik</b> (játszik, not játsz). Present: <b>játsz-</b>. Past: <b>játszott</b>. Imperative: <b>játssz! / játsszon!</b>",
+      "forms": [
+        { "label": "Present", "rows": [["én","játszom"],["te","játszol"],["ő","játszik"],["mi","játszunk"],["ti","játszotok"],["ők","játszanak"]] },
+        { "label": "Past",    "rows": [["én","játszottam"],["te","játszottál"],["ő","játszott"],["mi","játszottunk"],["ti","játszottatok"],["ők","játszottak"]] }
+      ],
+      "keyforms": [
+        {"l":"infinitive","f":"játszani"},{"l":"present 3sg","f":"játszik"},
+        {"l":"past 3sg","f":"játszott"},{"l":"imperative","f":"játssz! / játsszon!"},{"l":"verbal noun","f":"játék"}
+      ],
+      "prefixes": [
+        { "p": "el-", "hu": "eljátszik", "en": "to play through; to throw away (a chance)", "ex": [["Eljátssza a darabot.","She plays through the piece."],["Eljátszotta a lehetőségét.","He threw away his chance."]] }
+      ],
+      "examples": [
+        {"tag":"present",   "hu":"Mit játszik?",                        "en":"What is she playing?"},
+        {"tag":"present",   "hu":"A gyerekek a kertben játszanak.",     "en":"The children are playing in the garden."},
+        {"tag":"past",      "hu":"Gitároztam és zongorát játszottam.",  "en":"I played guitar and piano."},
+        {"tag":"past",      "hu":"Labdával játszott.",                  "en":"He played with a ball."},
+        {"tag":"imperative","hu":"Játssz velem!",                       "en":"Play with me!"}
+      ]
+    }
+  ]
+}

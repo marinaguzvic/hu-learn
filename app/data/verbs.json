@@ -1,0 +1,547 @@
+{
+  "categories": {
+    "objectactions": {
+      "label": "Object actions",
+      "note": "Verbs describing what you do <em>to</em> or <em>with</em> a physical object. Hungarian prefixes are strongly directional: <b>fel-</b> = upward, <b>le-</b> = downward, <b>ki-</b> = outward, <b>be-</b> = inward, <b>össze-</b> = together, <b>szét-</b> = apart, <b>vissza-</b> = back.",
+      "families": [
+        {
+          "base": "fog — to hold / to grab",
+          "sub": "grasping something with the hand",
+          "members": [
+            { "p": "—",      "hu": "fog",       "en": "to hold; to catch; to grab", "ex": [["Fogja a gyerek kezét.", "She holds the child's hand."], ["Megfogja a labdát.", "He catches the ball."]] },
+            { "p": "meg-",   "hu": "megfog",    "en": "to grab, to catch (making contact)", "ex": [["Megfogja a karját.", "She grabs his arm."], ["Megfogta a tolvajt.", "He caught the thief."]] },
+            { "p": "el-",    "hu": "elfog",     "en": "to capture, to arrest", "ex": [["Elfogják a rablót.", "They capture the robber."], ["Elfogták a határon.", "She was arrested at the border."]] },
+            { "p": "be-",    "hu": "befog",     "en": "to cover (eyes/mouth); to harness", "ex": [["Befogja a fülét.", "He covers his ears."], ["Befogja a száját.", "She covers her mouth."]] },
+            { "p": "fel-",   "hu": "felfog",    "en": "to comprehend; to catch (a ball coming down)", "ex": [["Felfogtad, amit mondtam?", "Did you grasp what I said?"], ["Felfogtam a labdát.", "I caught the ball."]] },
+            { "p": "vissza-","hu": "visszafog", "en": "to hold back, to restrain", "ex": [["Visszafogja magát.", "She restrains herself."], ["Visszafogja a lovakat.", "He holds back the horses."]] }
+          ]
+        },
+        {
+          "base": "tart — to hold / to keep",
+          "sub": "sustained holding or keeping in a state",
+          "members": [
+            { "p": "—",      "hu": "tart",       "en": "to hold; to keep; to last; to contain", "ex": [["Tartja a poharat.", "She holds the glass."], ["Két hétig tart.", "It lasts two weeks."]] },
+            { "p": "meg-",   "hu": "megtart",    "en": "to keep; to retain; to hold (an event)", "ex": [["Megtartja az ígéretét.", "He keeps his promise."], ["Megtartják a gyűlést.", "They hold the meeting."]] },
+            { "p": "vissza-","hu": "visszatart", "en": "to hold back, to withhold", "ex": [["Visszatartja a könnyeit.", "She holds back her tears."], ["Visszatartja a lélegzetét.", "He holds his breath."]] },
+            { "p": "el-",    "hu": "eltart",     "en": "to last; to maintain (financially)", "ex": [["Sokáig eltart.", "It lasts a long time."], ["Eltartja a családját.", "He supports his family financially."]] },
+            { "p": "ki-",    "hu": "kitart",     "en": "to persist, to persevere; to hold out", "ex": [["Kitart a véleménye mellett.", "She sticks to her opinion."], ["Kitartott a nehézségek ellenére.", "He persevered despite the difficulties."]] },
+            { "p": "össze-", "hu": "összetart",  "en": "to hold together; to stick together", "ex": [["A csoport összetart.", "The group sticks together."], ["Összetartja a részeket.", "She holds the parts together."]] }
+          ]
+        },
+        {
+          "base": "húz — to pull / to draw",
+          "sub": "pulling with force in a direction",
+          "members": [
+            { "p": "—",      "hu": "húz",       "en": "to pull; to draw; to drag", "ex": [["Húzza az ajtót.", "She pulls the door."], ["Húzza maga után.", "He drags it behind him."]] },
+            { "p": "ki-",    "hu": "kihúz",     "en": "to pull out, to extract; to cross out", "ex": [["Kihúzza a fogát.", "The dentist pulls out his tooth."], ["Kihúzza a nevét a listáról.", "She crosses his name off the list."]] },
+            { "p": "be-",    "hu": "behúz",     "en": "to pull in; to draw inside", "ex": [["Behúzza a függönyt.", "He draws the curtain."], ["Behúzza a nyakát.", "She pulls her neck in (shrinks)."]] },
+            { "p": "fel-",   "hu": "felhúz",    "en": "to pull up; to wind up; to build", "ex": [["Felhúzza a cipzárt.", "He pulls up the zip."], ["Felhúzza az órát.", "She winds up the watch."]] },
+            { "p": "le-",    "hu": "lehúz",     "en": "to pull down; to strip off", "ex": [["Lehúzza a rolót.", "He pulls down the blind."], ["Lehúzza a cipőjét.", "She pulls off her shoe."]] },
+            { "p": "el-",    "hu": "elhúz",     "en": "to pull away; to drag aside", "ex": [["Elhúzza a széket.", "He pulls the chair away."], ["Elhúzza a függönyt.", "She draws back the curtain."]] },
+            { "p": "össze-", "hu": "összehúz",  "en": "to pull together; to tighten", "ex": [["Összehúzza a szemöldökét.", "He furrows his brow."], ["Összehúzza a köpenyt.", "She pulls the robe tighter."]] },
+            { "p": "át-",    "hu": "áthúz",     "en": "to cross out; to drag across", "ex": [["Áthúzza a szót.", "She crosses out the word."], ["Áthúzza a vonalat.", "He draws a line through it."]] }
+          ]
+        },
+        {
+          "base": "tol — to push",
+          "sub": "applying force to move something forward",
+          "members": [
+            { "p": "—",      "hu": "tol",       "en": "to push; to shove; to roll (wheels)", "ex": [["Tolja a bevásárlókocsit.", "She pushes the shopping trolley."], ["Tolja a kerékpárt.", "He pushes the bicycle."]] },
+            { "p": "el-",    "hu": "eltol",     "en": "to push aside; to postpone", "ex": [["Eltolják a bemutatót.", "They postpone the presentation."], ["Eltolják az asztalt.", "They push the table aside."]] },
+            { "p": "félre-", "hu": "félretol",  "en": "to push aside, to put aside", "ex": [["Félretolj a problémát.", "He pushes the problem aside."], ["Félretolják az akadályt.", "They push the obstacle out of the way."]] },
+            { "p": "be-",    "hu": "betol",     "en": "to push in, to slide in", "ex": [["Betolja az autót a garázsba.", "He pushes the car into the garage."], ["Betolja a fiókot.", "She pushes the drawer in."]] },
+            { "p": "ki-",    "hu": "kitol",     "en": "to push out; to extend (a deadline)", "ex": [["Kitolják a határidőt.", "They extend the deadline."], ["Kitolják a széket.", "He pushes out the chair."]] },
+            { "p": "vissza-","hu": "visszatol", "en": "to push back", "ex": [["Visszatolja a bőrkutikulát.", "She pushes back the cuticles."], ["Visszatolja a fiókot.", "He pushes the drawer back."]] }
+          ]
+        },
+        {
+          "base": "dob — to throw",
+          "sub": "throwing in different directions",
+          "members": [
+            { "p": "—",      "hu": "dob",       "en": "to throw; to toss", "ex": [["Dobja a labdát.", "She throws the ball."], ["Dob egyet a levegőbe.", "He tosses one in the air."]] },
+            { "p": "el-",    "hu": "eldob",     "en": "to throw away, to discard", "ex": [["Eldobja a papírt.", "She throws away the paper."], ["Eldobta a régi ruháit.", "He threw out his old clothes."]] },
+            { "p": "be-",    "hu": "bedob",     "en": "to throw in, to toss inside", "ex": [["Bedobja a szemetesbe.", "He throws it in the bin."], ["Bedobja a labdát a kapuba.", "She throws the ball into the goal."]] },
+            { "p": "ki-",    "hu": "kidob",     "en": "to throw out; to fire (informal)", "ex": [["Kidobja a szemetet.", "He takes out the rubbish."], ["Kidobták a munkahelyéről.", "She was thrown out of her job."]] },
+            { "p": "vissza-","hu": "visszadob", "en": "to throw back", "ex": [["Visszadobja a labdát.", "He throws the ball back."], ["Visszadobták a kérelmet.", "They threw back the application."]] },
+            { "p": "fel-",   "hu": "feldob",    "en": "to throw up; to toss up; to cheer up", "ex": [["Feldobja az érmét.", "She tosses the coin."], ["Feldobta a hangulatot.", "He cheered everyone up."]] }
+          ]
+        },
+        {
+          "base": "emel — to lift / to raise",
+          "sub": "lifting something upward",
+          "members": [
+            { "p": "—",    "hu": "emel",    "en": "to lift; to raise; to increase", "ex": [["Emeli a kezét.", "She raises her hand."], ["Emelik a béreket.", "They raise the wages."]] },
+            { "p": "fel-", "hu": "felemel", "en": "to lift up; to pick up", "ex": [["Felemeli a dobozt.", "He lifts up the box."], ["Felemelte a gyereket.", "She picked up the child."]] },
+            { "p": "ki-",  "hu": "kiemel",  "en": "to highlight; to lift out; to emphasise", "ex": [["Kiemeli a fontos részt.", "She highlights the important part."], ["Kiemelkedő teljesítmény.", "An outstanding performance."]] },
+            { "p": "meg-", "hu": "megemel", "en": "to lift slightly; to raise (price, weight)", "ex": [["Megemeli a kalapját.", "He tips his hat."], ["Megemelték az árakat.", "They raised the prices."]] }
+          ]
+        },
+        {
+          "base": "nyom — to press / to push down",
+          "sub": "pressing with weight or force",
+          "members": [
+            { "p": "—",      "hu": "nyom",     "en": "to press; to push; to weigh", "ex": [["Nyomja a gombot.", "She presses the button."], ["Tíz kilót nyom.", "It weighs ten kilos."]] },
+            { "p": "meg-",   "hu": "megnyom",  "en": "to press (once, with purpose)", "ex": [["Megnyomja a csengőt.", "He presses the doorbell."], ["Megnyomja az Enter-t.", "She presses Enter."]] },
+            { "p": "le-",    "hu": "lenyom",   "en": "to press down; to push down", "ex": [["Lenyomja a kilincset.", "He presses down the door handle."], ["Lenyomja az ellenfelét.", "She pins down her opponent."]] },
+            { "p": "be-",    "hu": "benyom",   "en": "to press in; to shove in", "ex": [["Benyomja a dugót.", "He pushes in the plug."], ["Benyomja az ajtót.", "She pushes the door open."]] },
+            { "p": "össze-", "hu": "összenyom","en": "to squeeze together; to compress", "ex": [["Összenyomja a dobozt.", "He squashes the box."], ["Összenyomja a kezét.", "She squeezes his hand."]] },
+            { "p": "ki-",    "hu": "kinyom",   "en": "to squeeze out; to press out", "ex": [["Kinyomja a fogkrémet.", "He squeezes out the toothpaste."], ["Kinyomja a citromot.", "She squeezes the lemon."]] }
+          ]
+        },
+        {
+          "base": "üt — to hit / to strike",
+          "sub": "making forceful contact",
+          "members": [
+            { "p": "—",      "hu": "üt",      "en": "to hit; to strike; to beat", "ex": [["Üti az asztalt.", "He bangs the table."], ["Három óra üt.", "Three o'clock strikes."]] },
+            { "p": "meg-",   "hu": "megüt",   "en": "to hit (someone), to strike", "ex": [["Megüti a labdát.", "She hits the ball."], ["Megütötte a fejét.", "He hit his head."]] },
+            { "p": "el-",    "hu": "elüt",    "en": "to knock down (with vehicle); to hit away", "ex": [["Elüti a gyalogost.", "The car knocks down the pedestrian."], ["Elüti a labdát.", "She bats the ball away."]] },
+            { "p": "le-",    "hu": "leüt",    "en": "to knock down; to strike down; to type a key", "ex": [["Leüti a gombot.", "She strikes the key."], ["Leütötte az ellenfelét.", "He knocked down his opponent."]] },
+            { "p": "össze-", "hu": "összeüt", "en": "to knock together; to clash", "ex": [["Összeüti a bokáját.", "He clicks his heels."], ["Összeütköznek.", "They collide."]] }
+          ]
+        },
+        {
+          "base": "érint — to touch",
+          "sub": "making light or formal contact",
+          "members": [
+            { "p": "—",      "hu": "érint",    "en": "to touch; to affect; to concern", "ex": [["Enyhén érinti a vállát.", "She gently touches his shoulder."], ["Ez mindenkit érint.", "This affects everyone."]] },
+            { "p": "meg-",   "hu": "megérint", "en": "to touch (once, making contact)", "ex": [["Megérinti az arcát.", "She touches his face."], ["Megérintette a kezét.", "He touched her hand."]] },
+            { "p": "hozzá-", "hu": "hozzányúl","en": "to touch; to reach for; to tamper with", "ex": [["Ne nyúlj hozzá!", "Don't touch it!"], ["Hozzányúlt a vázához.", "She reached for the vase."]] }
+          ]
+        },
+        {
+          "base": "rak — to place / to put",
+          "sub": "placing deliberately in a location",
+          "members": [
+            { "p": "—",      "hu": "rak",      "en": "to place; to put; to stack", "ex": [["Rakja a könyveket a polcra.", "She puts the books on the shelf."], ["Rak valamit a táskába.", "He puts something in the bag."]] },
+            { "p": "le-",    "hu": "lerak",    "en": "to put down; to lay down", "ex": [["Lerakja a táskát.", "She puts down the bag."], ["Lerakja a fegyvert.", "He lays down the weapon."]] },
+            { "p": "fel-",   "hu": "felrak",   "en": "to put up; to load onto", "ex": [["Felrakja a poggyászt.", "He loads the luggage."], ["Felrakja a polcra.", "She puts it up on the shelf."]] },
+            { "p": "be-",    "hu": "berak",    "en": "to put in; to place inside", "ex": [["Berakja a mosógépbe.", "She puts it in the washing machine."], ["Berakja a kocsiba.", "He puts it in the car."]] },
+            { "p": "ki-",    "hu": "kirak",    "en": "to put out; to lay out; to display", "ex": [["Kirakja az árukat.", "She puts out the goods."], ["Kirakja a puzzlet.", "He does the puzzle."]] },
+            { "p": "át-",    "hu": "átrak",    "en": "to move from one place to another", "ex": [["Átrakja a másik polcra.", "She moves it to the other shelf."], ["Átrakja a csomagot.", "He transfers the parcel."]] },
+            { "p": "össze-", "hu": "összerak", "en": "to put together; to assemble", "ex": [["Összerakja a bútort.", "He assembles the furniture."], ["Összerakja a puzzle-t.", "She puts together the puzzle."]] }
+          ]
+        },
+        {
+          "base": "köt — to tie / to bind",
+          "sub": "fastening or connecting things",
+          "members": [
+            { "p": "—",      "hu": "köt",      "en": "to tie; to knit; to bind", "ex": [["Köti a cipőfűzőjét.", "She ties her shoelaces."], ["Kötni szeret.", "He likes to knit."]] },
+            { "p": "meg-",   "hu": "megköt",   "en": "to tie up; to set (cement); to conclude (a deal)", "ex": [["Megköti a nyakkendőjét.", "He ties his tie."], ["Megkötik az üzletet.", "They conclude the deal."]] },
+            { "p": "le-",    "hu": "leköt",    "en": "to tie down; to secure; to engage (attention)", "ex": [["Leköti a figyelmet.", "It holds her attention."], ["Leköti a hajót.", "He moors the boat."]] },
+            { "p": "össze-", "hu": "összeköt", "en": "to tie together; to connect", "ex": [["Összeköti a csomópontokat.", "She connects the nodes."], ["Összeköti a kezét.", "He ties his hands together."]] },
+            { "p": "ki-",    "hu": "kiköt",    "en": "to moor; to stipulate a condition", "ex": [["Kiköti a feltételeket.", "She stipulates the conditions."], ["Kiköti a hajót a kikötőben.", "He moors the boat in the harbour."]] },
+            { "p": "be-",    "hu": "beköt",    "en": "to bandage; to connect (cable/pipe)", "ex": [["Beköti a sebét.", "She bandages his wound."], ["Beköti a gázt.", "He connects the gas."]] }
+          ]
+        },
+        {
+          "base": "nyit — to open",
+          "sub": "opening in different directions or ways",
+          "members": [
+            { "p": "—",    "hu": "nyit",    "en": "to open", "ex": [["Nyitja az ablakot.", "She opens the window."], ["Reggel nyit a bolt.", "The shop opens in the morning."]] },
+            { "p": "ki-",  "hu": "kinyit",  "en": "to open up (something closed)", "ex": [["Kinyitja az ajtót.", "He opens the door."], ["Kinyitja a dobozt.", "She opens the box."]] },
+            { "p": "meg-", "hu": "megnyit", "en": "to open formally (file, event)", "ex": [["Megnyitja a dokumentumot.", "He opens the document."], ["Megnyitja a kiállítást.", "She opens the exhibition."]] },
+            { "p": "ki-",  "hu": "kitár",   "en": "to open wide; to spread open", "ex": [["Kitárja a karját.", "He opens his arms wide."], ["Kitárja az ablakot.", "She flings the window wide open."]] },
+            { "p": "fel-", "hu": "felnyit", "en": "to open up; to cut open", "ex": [["Felnyitja a borítékot.", "She opens the envelope."], ["Felnyitja a sebet.", "He cuts open the wound."]] }
+          ]
+        },
+        {
+          "base": "zár — to close / to lock",
+          "sub": "closing and locking",
+          "members": [
+            { "p": "—",    "hu": "zár",    "en": "to close; to lock", "ex": [["Zárja az ajtót.", "She closes the door."], ["Zárja a pénztárat.", "He closes the till."]] },
+            { "p": "be-",  "hu": "bezár",  "en": "to close down; to shut in", "ex": [["Bezárják az üzletet.", "They close down the shop."], ["Bezárja a macskát.", "She shuts the cat in."]] },
+            { "p": "le-",  "hu": "lezár",  "en": "to close off; to seal; to conclude", "ex": [["Lezárják az utcát.", "They close off the street."], ["Lezárja az ügyet.", "He closes the case."]] },
+            { "p": "ki-",  "hu": "kizár",  "en": "to lock out; to exclude", "ex": [["Kizárja magát.", "She locks herself out."], ["Kizárják a csapatból.", "They exclude him from the team."]] },
+            { "p": "el-",  "hu": "elzár",  "en": "to shut off (gas/water); to lock away", "ex": [["Elzárja a gázt.", "He shuts off the gas."], ["Elzárja a fontos iratokat.", "She locks away the important documents."]] }
+          ]
+        },
+        {
+          "base": "ad — to give",
+          "sub": "giving and handing in different directions",
+          "members": [
+            { "p": "—",       "hu": "ad",         "en": "to give", "ex": [["Adok neked egyet.", "I'll give you one."], ["Ad egy puszit.", "She gives a kiss."]] },
+            { "p": "át-",     "hu": "átad",        "en": "to hand over; to pass on", "ex": [["Átadja a kulcsot.", "She hands over the key."], ["Átadta a feladatát.", "He passed on his task."]] },
+            { "p": "oda-",    "hu": "odaad",       "en": "to give over to; to hand to someone", "ex": [["Odaadja a labdát.", "He passes the ball."], ["Odaadta az egészet.", "She gave it all away."]] },
+            { "p": "meg-",    "hu": "megad",       "en": "to give what is owed; to grant; to surrender", "ex": [["Megadja a választ.", "He gives the answer."], ["Megadja magát.", "She surrenders."]] },
+            { "p": "vissza-", "hu": "visszaad",    "en": "to give back; to return something", "ex": [["Visszaadja a pénzt.", "He gives back the money."], ["Visszaadta a könyvet.", "She returned the book."]] },
+            { "p": "hozzá-",  "hu": "hozzáad",     "en": "to add to; to contribute", "ex": [["Hozzáad egy kanál sót.", "She adds a spoon of salt."], ["Hozzáadja a sajátját.", "He adds his own contribution."]] }
+          ]
+        },
+        {
+          "base": "hoz — to bring",
+          "sub": "bringing toward the speaker",
+          "members": [
+            { "p": "—",      "hu": "hoz",       "en": "to bring", "ex": [["Hozza a táskát.", "She brings the bag."], ["Mit hozhatok?", "What can I bring?"]] },
+            { "p": "el-",    "hu": "elhoz",     "en": "to bring along; to fetch", "ex": [["Elhozza a könyvét.", "He brings along his book."], ["Elhozom neked.", "I'll fetch it for you."]] },
+            { "p": "meg-",   "hu": "meghoz",    "en": "to bring about; to deliver (a verdict)", "ex": [["Meghozza a döntést.", "She makes the decision."], ["Meghozza az ítéletet.", "He delivers the verdict."]] },
+            { "p": "be-",    "hu": "behoz",     "en": "to bring in; to import; to make up (a deficit)", "ex": [["Behozza a csomagot.", "She brings in the parcel."], ["Behozzák az elmaradást.", "They make up the deficit."]] },
+            { "p": "ki-",    "hu": "kihoz",     "en": "to bring out; to get out", "ex": [["Kihozza a vacsorát.", "He brings out the dinner."], ["Kihozza belőle a legjobban.", "She brings out the best in him."]] },
+            { "p": "vissza-","hu": "visszahoz", "en": "to bring back", "ex": [["Visszahozza a könyvet.", "He brings back the book."], ["Visszahozza a régi emlékeket.", "It brings back old memories."]] },
+            { "p": "össze-", "hu": "összehoz",  "en": "to bring together; to arrange (a meeting)", "ex": [["Összehoz két embert.", "She brings two people together."], ["Összehoz egy találkozót.", "He arranges a meeting."]] }
+          ]
+        },
+        {
+          "base": "ráz — to shake",
+          "sub": "shaking with force",
+          "members": [
+            { "p": "—",    "hu": "ráz",    "en": "to shake; to jolt", "ex": [["Rázza a palackot.", "She shakes the bottle."], ["Rázza a fejét.", "He shakes his head."]] },
+            { "p": "meg-", "hu": "megráz", "en": "to shake up; to shake (someone) by the shoulders", "ex": [["Megrázza a barátját.", "She shakes her friend by the shoulders."], ["Megrázta az esemény.", "The event shook him."]] },
+            { "p": "ki-",  "hu": "kiráz",  "en": "to shake out; to shake off", "ex": [["Kirázzák az abroszt.", "They shake out the tablecloth."], ["Kirázza a hideg.", "The cold makes him shiver."]] },
+            { "p": "fel-", "hu": "felráz", "en": "to shake up; to rouse", "ex": [["Felrázza az embert.", "It shakes a person up."], ["Felrázza a palackot.", "She gives the bottle a good shake."]] }
+          ]
+        },
+        {
+          "base": "csavar — to twist / to screw",
+          "sub": "twisting or rotating",
+          "members": [
+            { "p": "—",      "hu": "csavar",     "en": "to twist; to screw; to wring", "ex": [["Csavarja a csavart.", "She turns the screw."], ["Csavarja a törülközőt.", "He wrings the towel."]] },
+            { "p": "be-",    "hu": "becsavar",   "en": "to screw in; to wrap up", "ex": [["Becsavarja a villanykörtét.", "She screws in the light bulb."], ["Becsavarja papírba.", "He wraps it in paper."]] },
+            { "p": "ki-",    "hu": "kicsavar",   "en": "to unscrew; to wring out", "ex": [["Kicsavarja a villanykörtét.", "She unscrews the light bulb."], ["Kicsavarja a törlőrongyot.", "He wrings out the cloth."]] },
+            { "p": "le-",    "hu": "lecsavar",   "en": "to unscrew; to turn down (volume)", "ex": [["Lecsavarja a kupakot.", "She unscrews the cap."], ["Lecsavarja a hangerőt.", "He turns down the volume."]] },
+            { "p": "össze-", "hu": "összecsavar","en": "to coil up; to twist together", "ex": [["Összecsavarja a kábelt.", "She coils up the cable."], ["Összecsavarodik.", "It gets twisted together."]] }
+          ]
+        }
+      ]
+    },
+    "movement": {
+      "label": "Movement & direction",
+      "note": "Direction is baked into the prefix. <b>fel-</b> = up, <b>le-</b> = down, <b>ki-</b> = out, <b>be-</b> = in, <b>vissza-</b> = back, <b>el-</b> = away, <b>át-</b> = across.",
+      "families": [
+        {
+          "base": "megy — to go",
+          "sub": "the most fundamental movement verb",
+          "members": [
+            { "p": "—",      "hu": "megy",       "en": "to go (neutral)", "ex": [["Megy a munkába.", "He goes to work."], ["Hova megy?", "Where are you going?"]] },
+            { "p": "be-",    "hu": "bemegy",      "en": "to go in, to enter", "ex": [["Bemegy a szobába.", "He goes into the room."], ["Bemegy a boltba.", "She goes into the shop."]] },
+            { "p": "ki-",    "hu": "kimegy",      "en": "to go out", "ex": [["Kimegy az ajtón.", "She goes out through the door."], ["Kimegy a kertbe.", "He goes out into the garden."]] },
+            { "p": "fel-",   "hu": "felmegy",     "en": "to go up", "ex": [["Felmegy a lépcsőn.", "He goes up the stairs."], ["Felmegy a hegyre.", "She goes up the hill."]] },
+            { "p": "le-",    "hu": "lemegy",      "en": "to go down", "ex": [["Lemegy a pincébe.", "She goes down to the cellar."], ["Lemegy a metróba.", "He goes down into the metro."]] },
+            { "p": "el-",    "hu": "elmegy",      "en": "to go away, to leave", "ex": [["Elmegy otthonról.", "He leaves home."], ["Elmegy a barátjához.", "She goes to her friend's."]] },
+            { "p": "vissza-","hu": "visszamegy",  "en": "to go back", "ex": [["Visszamegy a szobájába.", "He goes back to his room."], ["Visszamegy Magyarországra.", "She goes back to Hungary."]] },
+            { "p": "át-",    "hu": "átmegy",      "en": "to cross; to pass (exam)", "ex": [["Átmegy az úttesten.", "He crosses the road."], ["Átment a vizsgán.", "She passed the exam."]] }
+          ]
+        },
+        {
+          "base": "száll — to board / alight / stay",
+          "sub": "transport and accommodation",
+          "members": [
+            { "p": "be-",  "hu": "beszáll",  "en": "to get in (car/taxi)", "ex": [["Beszáll a kocsiba.", "He gets in the car."], ["Mindenki beszállt.", "Everyone got on."]] },
+            { "p": "fel-", "hu": "felszáll", "en": "to board; to fly up", "ex": [["Felszáll a buszra.", "She boards the bus."], ["A repülő felszáll.", "The plane takes off."]] },
+            { "p": "ki-",  "hu": "kiszáll",  "en": "to get out/off", "ex": [["Kiszáll a taxiból.", "He gets out of the taxi."], ["A következő megállóban szállok ki.", "I'm getting off at the next stop."]] },
+            { "p": "le-",  "hu": "leszáll",  "en": "to get off; to land", "ex": [["Leszáll a villamosról.", "She gets off the tram."], ["A repülő leszáll.", "The plane lands."]] },
+            { "p": "át-",  "hu": "átszáll",  "en": "to transfer between transport", "ex": [["Átszáll a metróra.", "He transfers to the metro."], ["Átszáll Bécsben.", "She changes in Vienna."]] },
+            { "p": "meg-", "hu": "megszáll", "en": "to stay at (accommodation)", "ex": [["Megszáll a szállodában.", "He stays at the hotel."], ["Hol szálltál meg?", "Where did you stay?"]] }
+          ]
+        },
+        {
+          "base": "visz — to carry / take",
+          "sub": "carrying or transporting something",
+          "members": [
+            { "p": "—",      "hu": "visz",      "en": "to take, to carry", "ex": [["Viszi a táskát.", "She carries the bag."], ["Hova viszed?", "Where are you taking it?"]] },
+            { "p": "el-",    "hu": "elvisz",    "en": "to take away, to carry off", "ex": [["Elviszi az esernyőjét.", "He takes his umbrella."], ["A szél elvitte a kalapját.", "The wind blew away her hat."]] },
+            { "p": "le-",    "hu": "levisz",    "en": "to take down", "ex": [["Leviszi a szemetet.", "He takes down the rubbish."], ["Leviszem a bőröndöt.", "I'll carry the suitcase down."]] },
+            { "p": "vissza-","hu": "visszavisz","en": "to take back", "ex": [["Visszaviszi a könyvet.", "She takes the book back."], ["Vissza kell vinni.", "It has to be taken back."]] },
+            { "p": "be-",    "hu": "bevisz",    "en": "to take in, to bring inside", "ex": [["Beviszi a gyereket az iskolába.", "She takes the child to school."], ["Beviszi a csomagot.", "He brings the parcel inside."]] }
+          ]
+        },
+        {
+          "base": "fordul — to turn",
+          "sub": "change of direction or state",
+          "members": [
+            { "p": "—",      "hu": "fordul",     "en": "to turn, to rotate", "ex": [["Jobbra fordul.", "Turn right."], ["Hozzám fordul.", "He turns towards me."]] },
+            { "p": "be-",    "hu": "befordul",   "en": "to turn into (a road)", "ex": [["Befordul az utcába.", "He turns into the street."], ["Befordul a parkolóba.", "She turns into the car park."]] },
+            { "p": "meg-",   "hu": "megfordul",  "en": "to turn around; to occur to", "ex": [["Megfordul és elmegy.", "He turns around and leaves."], ["Megfordul a fejemben.", "It occurs to me."]] },
+            { "p": "elő-",   "hu": "előfordul",  "en": "to occur, to happen", "ex": [["Ez velem is előfordult.", "This has happened to me too."], ["Előfordul, hogy késik.", "It sometimes happens that she's late."]] },
+            { "p": "vissza-","hu": "visszafordul","en": "to turn back", "ex": [["Visszafordul az úton.", "He turns back on the road."], ["Visszafordul a felénél.", "She turns back halfway."]] }
+          ]
+        }
+      ]
+    },
+    "speaking": {
+      "label": "Speaking & communication",
+      "note": "<b>meg-</b> often adds completeness or formality to a speech act. <b>el-</b> means to relay or tell through. <b>fel-</b> can mean to raise a topic or report upward.",
+      "families": [
+        {
+          "base": "mond — to say",
+          "sub": "the core say/tell verb",
+          "members": [
+            { "p": "—",    "hu": "mond",    "en": "to say", "ex": [["Mit mond?", "What does he say?"], ["Jót mond.", "She says something good."]] },
+            { "p": "el-",  "hu": "elmond",  "en": "to tell, to relate fully", "ex": [["Elmond mindent.", "He tells everything."], ["Elmondja a történetet.", "She tells the whole story."]] },
+            { "p": "meg-", "hu": "megmond", "en": "to tell directly", "ex": [["Megmondom az igazat.", "I'll tell you the truth."], ["Megmondja a véleményét.", "He states his opinion."]] },
+            { "p": "fel-", "hu": "felmond", "en": "to terminate; to recite", "ex": [["Felmondja a szerződést.", "She terminates the contract."], ["Felmondja a verset.", "He recites the poem."]] },
+            { "p": "le-",  "hu": "lemond",  "en": "to resign; to cancel", "ex": [["Lemond az állásáról.", "He resigns from the job."], ["Lemond a vacsoráról.", "She cancels dinner."]] }
+          ]
+        },
+        {
+          "base": "ír — to write",
+          "sub": "writing in different directions",
+          "members": [
+            { "p": "—",      "hu": "ír",      "en": "to write", "ex": [["Levelet ír.", "She writes a letter."], ["Sokat ír a naplójába.", "He writes a lot in his diary."]] },
+            { "p": "le-",    "hu": "leír",    "en": "to write down; to describe", "ex": [["Leírja a problémát.", "He writes down the problem."], ["Leírja, amit lát.", "She describes what she sees."]] },
+            { "p": "alá-",   "hu": "aláír",   "en": "to sign (below the text)", "ex": [["Aláírja a szerződést.", "She signs the contract."], ["Kérem, írjon alá ide.", "Please sign here."]] },
+            { "p": "fel-",   "hu": "felír",   "en": "to note; to prescribe", "ex": [["Felírja a receptet.", "He prescribes the medicine."], ["Felírom a telefonszámát.", "I'll note her number."]] },
+            { "p": "be-",    "hu": "beír",    "en": "to write in; to enrol", "ex": [["Beírja a nevét.", "He writes his name in."], ["Beírja a gyerekét az iskolába.", "She enrolls her child."]] },
+            { "p": "át-",    "hu": "átír",    "en": "to rewrite; to transfer in writing", "ex": [["Átírja a dokumentumot.", "She rewrites the document."], ["Átírja más névre.", "He transfers it to another name."]] },
+            { "p": "össze-", "hu": "összeír", "en": "to compile, to make a list of", "ex": [["Összeírja a bevásárlólistát.", "She compiles the shopping list."], ["Összeírják a résztvevőket.", "They compile a list of participants."]] }
+          ]
+        },
+        {
+          "base": "kérdez — to ask",
+          "sub": "asking vs getting an answer",
+          "members": [
+            { "p": "—",    "hu": "kérdez",    "en": "to ask (poses a question)", "ex": [["Kérdez valamit.", "He asks something."], ["Sokat kérdez.", "She asks a lot."]] },
+            { "p": "meg-", "hu": "megkérdez", "en": "to ask someone (expecting a reply)", "ex": [["Megkérdezi a tanárt.", "She asks the teacher."], ["Megkérdezem, mikor ér rá.", "I'll ask him when he's free."]] }
+          ]
+        },
+        {
+          "base": "mutat — to show / point",
+          "sub": "show to vs show off vs point at",
+          "members": [
+            { "p": "be-",  "hu": "bemutat", "en": "to present; to introduce", "ex": [["Bemutatja a csapatát.", "He presents his team."], ["Bemutatom a barátomat.", "I'll introduce my friend."]] },
+            { "p": "meg-", "hu": "megmutat","en": "to show something specific", "ex": [["Megmutatja a képeit.", "She shows her photos."], ["Megmutatom, hol van.", "I'll show you where it is."]] },
+            { "p": "rá-",  "hu": "rámutat", "en": "to point at; to highlight", "ex": [["Rámutat a problémára.", "He points to the problem."], ["Rámutat a térképen.", "She points at the map."]] }
+          ]
+        }
+      ]
+    },
+    "thinking": {
+      "label": "Thinking & deciding",
+      "note": "<b>meg-</b> signals the completion of a mental act — understanding achieved, a decision made. <b>el-</b> often implies drifting into thought or becoming distracted.",
+      "families": [
+        {
+          "base": "gondol — to think",
+          "sub": "thinking vs pondering vs reconsidering",
+          "members": [
+            { "p": "—",    "hu": "gondol",        "en": "to think about", "ex": [["Gondolok erre.", "I think about this."], ["Gondolsz rám?", "Do you think of me?"]] },
+            { "p": "el-",  "hu": "elgondolkodik", "en": "to ponder, to think deeply", "ex": [["Elgondolkodik a problémán.", "He ponders the problem."], ["Elgondolkoztam rajta.", "I thought it over carefully."]] },
+            { "p": "meg-", "hu": "meggondol",     "en": "to think over; to reconsider", "ex": [["Meggondolja magát.", "She changes her mind."], ["Gondold meg jól!", "Think it over carefully!"]] }
+          ]
+        },
+        {
+          "base": "talál — to find",
+          "sub": "finding vs inventing vs figuring out",
+          "members": [
+            { "p": "—",    "hu": "talál",   "en": "to find, to come across", "ex": [["Talál egy kulcsot.", "She finds a key."], ["Valakit talál az ajtóban.", "He finds someone at the door."]] },
+            { "p": "meg-", "hu": "megtalál","en": "to find (something sought)", "ex": [["Megtalálja a kulcsát.", "She finds her key."], ["Megtalálta az igazságot.", "He found the truth."]] },
+            { "p": "ki-",  "hu": "kitalál", "en": "to figure out; to make up", "ex": [["Kitalálja a megoldást.", "He figures out the solution."], ["Kitalált egy mesét.", "She made up a story."]] },
+            { "p": "fel-", "hu": "feltalál","en": "to invent (a new thing)", "ex": [["Feltalálta a telefont.", "He invented the telephone."], ["Ki találta fel?", "Who invented it?"]] }
+          ]
+        },
+        {
+          "base": "ért — to understand",
+          "sub": "understanding vs misunderstanding",
+          "members": [
+            { "p": "—",      "hu": "ért",      "en": "to understand; to be knowledgeable", "ex": [["Értem.", "I understand."], ["Ért a zenéhez.", "He knows about music."]] },
+            { "p": "meg-",   "hu": "megért",   "en": "to come to understand", "ex": [["Megérti a leckét.", "He understands the lesson."], ["Megértettem végre.", "I finally understood."]] },
+            { "p": "félre-", "hu": "félreért", "en": "to misunderstand", "ex": [["Félreérti a kérdést.", "She misunderstands the question."], ["Ne értsd félre!", "Don't misunderstand me!"]] }
+          ]
+        },
+        {
+          "base": "tervez — to plan",
+          "sub": "planning vs designing",
+          "members": [
+            { "p": "—",    "hu": "tervez",    "en": "to plan; to design", "ex": [["Tervezi a nyarat.", "She is planning the summer."], ["Házat tervez.", "He designs a house."]] },
+            { "p": "el-",  "hu": "eltervez",  "en": "to plan out thoroughly in advance", "ex": [["Eltervezi az utat.", "He plans out the journey."], ["Mindent előre eltervezett.", "She planned everything out."]] },
+            { "p": "meg-", "hu": "megtervez", "en": "to engineer a specific system", "ex": [["Megtervezi a rendszert.", "He designs the system."], ["Megtervezi az épületet.", "She designs the building."]] }
+          ]
+        }
+      ]
+    },
+    "physical": {
+      "label": "Physical actions",
+      "note": "Prefixes are very literal: <b>ki-</b> = outward, <b>be-</b> = inward, <b>szét-</b> = into pieces, <b>össze-</b> = together, <b>le-</b> = downward/off, <b>fel-</b> = upward.",
+      "families": [
+        {
+          "base": "tölt — to fill / pour / load",
+          "sub": "the most versatile physical verb",
+          "members": [
+            { "p": "—",      "hu": "tölt",     "en": "to fill; to pour; to load", "ex": [["Tölt egy pohár vizet.", "He pours a glass of water."], ["Tölt az üvegből.", "She pours from the bottle."]] },
+            { "p": "be-",    "hu": "betölt",   "en": "to fill a role; to load into", "ex": [["Betölti az állást.", "She fills the position."], ["Betölti a puskát.", "He loads the gun."]] },
+            { "p": "fel-",   "hu": "feltölt",  "en": "to upload; to fill up; to charge", "ex": [["Feltölti a telefont.", "He charges the phone."], ["Feltölti a tartályt.", "She fills up the tank."]] },
+            { "p": "le-",    "hu": "letölt",   "en": "to download; to serve (a sentence)", "ex": [["Letölti a fájlt.", "She downloads the file."], ["Letölti a büntetést.", "He serves his sentence."]] },
+            { "p": "ki-",    "hu": "kitölt",   "en": "to fill in (a form)", "ex": [["Kitölti az űrlapot.", "He fills in the form."], ["Kitöltöttem a kérdőívet.", "I filled in the questionnaire."]] },
+            { "p": "újra-",  "hu": "újratölt", "en": "to reload; to recharge; to refresh", "ex": [["Újratölti az oldalt.", "She reloads the page."], ["Újratölti az elemeket.", "He recharges the batteries."]] }
+          ]
+        },
+        {
+          "base": "vág — to cut",
+          "sub": "cutting in different ways",
+          "members": [
+            { "p": "—",      "hu": "vág",      "en": "to cut", "ex": [["Vágja a kenyeret.", "She cuts the bread."], ["Vágja a füvet.", "He cuts the grass."]] },
+            { "p": "el-",    "hu": "elvág",    "en": "to cut off, to disconnect", "ex": [["Elvágja a fonalat.", "She cuts off the thread."], ["Elvágja az összeköttetést.", "He cuts off the connection."]] },
+            { "p": "ki-",    "hu": "kivág",    "en": "to cut out", "ex": [["Kivágja a kupont.", "He cuts out the coupon."], ["Kivágja a fát.", "She cuts down the tree."]] },
+            { "p": "szét-",  "hu": "szétvág",  "en": "to cut into pieces", "ex": [["Szétvágja a papírt.", "She cuts the paper into pieces."], ["Szétvágja a tortát.", "He cuts the cake into slices."]] },
+            { "p": "össze-", "hu": "összevág", "en": "to mince, to chop up finely", "ex": [["Összevágja a hagymát.", "He minces the onion."], ["Összevágja a zöldségeket.", "She chops the vegetables."]] },
+            { "p": "le-",    "hu": "levág",    "en": "to cut off/down", "ex": [["Levágja a haját.", "She cuts her hair."], ["Levágja az ágat.", "He cuts off the branch."]] }
+          ]
+        },
+        {
+          "base": "tör — to break",
+          "sub": "breaking in vs breaking out",
+          "members": [
+            { "p": "be-",    "hu": "betör",    "en": "to break into (burgle)", "ex": [["Betört a házba.", "He broke into the house."], ["Betörtek az irodába.", "They broke into the office."]] },
+            { "p": "ki-",    "hu": "kitör",    "en": "to break out; to erupt", "ex": [["Kitört a háború.", "The war broke out."], ["Kitört a tűz.", "Fire broke out."]] },
+            { "p": "meg-",   "hu": "megtör",   "en": "to break someone's will", "ex": [["Megtöri az ellenállást.", "She breaks the resistance."], ["A betegség megtörte.", "The illness broke him."]] },
+            { "p": "össze-", "hu": "összetör", "en": "to smash to pieces", "ex": [["Összetörte a vázát.", "He smashed the vase."], ["Összetört a szíve.", "Her heart was shattered."]] }
+          ]
+        }
+      ]
+    },
+    "statechange": {
+      "label": "State changes",
+      "note": "<b>meg-</b> marks a completed change of state. <b>el-</b> can signal a negative drift or departure. <b>ki-</b> often implies coming out of a previous state.",
+      "families": [
+        {
+          "base": "válik — to become / separate",
+          "sub": "becoming vs dividing",
+          "members": [
+            { "p": "—",      "hu": "válik",    "en": "to become; to turn into", "ex": [["Tanárrá válik.", "She becomes a teacher."], ["A víz jéggé válik.", "Water turns into ice."]] },
+            { "p": "el-",    "hu": "elválik",  "en": "to divorce, to separate", "ex": [["Elvált a feleségétől.", "He divorced his wife."], ["Az útjaink elválnak.", "Our paths separate."]] },
+            { "p": "ki-",    "hu": "kiválik",  "en": "to stand out; to break away", "ex": [["Kiválik a csoportból.", "She stands out from the group."], ["Kiválik a tömegből.", "He stands out from the crowd."]] },
+            { "p": "szét-",  "hu": "szétválik","en": "to split apart", "ex": [["Szétválik a pár.", "The couple splits up."], ["A kenyér szétválik.", "The bread falls apart."]] }
+          ]
+        },
+        {
+          "base": "marad — to stay / remain",
+          "sub": "staying vs cancelling vs persisting",
+          "members": [
+            { "p": "—",    "hu": "marad",    "en": "to stay, to remain", "ex": [["Marad otthon.", "He stays at home."], ["Maradj velem!", "Stay with me!"]] },
+            { "p": "el-",  "hu": "elmarad",  "en": "to be cancelled; to fall behind", "ex": [["Elmarad a meccs.", "The match is cancelled."], ["Elmaradtak a fizetések.", "The payments fell behind."]] },
+            { "p": "meg-", "hu": "megmarad", "en": "to remain, to persist, to survive", "ex": [["Megmarad az emléke.", "His memory persists."], ["Megmaradt a régi barátság.", "The old friendship survived."]] },
+            { "p": "le-",  "hu": "lemarad",  "en": "to fall behind; to miss out", "ex": [["Lemarad a versenyből.", "He falls behind in the race."], ["Lemaradtam a busszal.", "I missed the bus."]] }
+          ]
+        },
+        {
+          "base": "használ — to use",
+          "sub": "using vs exploiting vs consuming",
+          "members": [
+            { "p": "—",    "hu": "használ",   "en": "to use", "ex": [["Használja a számítógépet.", "She uses the computer."], ["Nem használja soha.", "He never uses it."]] },
+            { "p": "fel-", "hu": "felhasznál","en": "to use up, to utilise, to consume", "ex": [["Felhasználja az összes anyagot.", "She uses up all the material."], ["Felhasználja az energiát.", "He utilises the energy."]] },
+            { "p": "ki-",  "hu": "kihasznál", "en": "to exploit, to take advantage of", "ex": [["Kihasználja a helyzetet.", "He exploits the situation."], ["Kihasználja a barátját.", "She takes advantage of her friend."]] }
+          ]
+        }
+      ]
+    },
+    "admin": {
+      "label": "Administrative & formal",
+      "note": "<b>be-</b> signals reporting inward to an authority. <b>ki-</b> means issuing outward. <b>fel-</b> often means reporting upward.",
+      "families": [
+        {
+          "base": "rendel — to order",
+          "sub": "ordering vs decreeing",
+          "members": [
+            { "p": "—",    "hu": "rendel",   "en": "to order; to prescribe", "ex": [["Rendel egy kávét.", "He orders a coffee."], ["Az orvos rendel.", "The doctor holds surgery."]] },
+            { "p": "meg-", "hu": "megrendel","en": "to place a formal order", "ex": [["Megrendeli a terméket.", "She places an order."], ["Megrendeltük a bútorot.", "We ordered the furniture."]] },
+            { "p": "el-",  "hu": "elrendel", "en": "to decree, to order officially", "ex": [["Elrendeli a vizsgálatot.", "He decrees an investigation."], ["Elrendelték az evakuálást.", "They ordered the evacuation."]] }
+          ]
+        },
+        {
+          "base": "jelent — to report / appear",
+          "sub": "reporting direction changes meaning",
+          "members": [
+            { "p": "be-",  "hu": "bejelent",   "en": "to announce; to report to authorities", "ex": [["Bejelenti a lopást.", "She reports the theft."], ["Bejelentik az új terméket.", "They announce the new product."]] },
+            { "p": "fel-", "hu": "feljelent",   "en": "to report someone to police", "ex": [["Feljelenti a szomszédját.", "He reports his neighbour."], ["Feljelentette a főnökét.", "She reported her boss."]] },
+            { "p": "meg-", "hu": "megjelenik",  "en": "to appear; to be published", "ex": [["Megjelent az új könyv.", "The new book was published."], ["Megjelenik a tárgyaláson.", "He appears at the hearing."]] }
+          ]
+        },
+        {
+          "base": "oszt — to distribute / divide",
+          "sub": "distributing in different directions",
+          "members": [
+            { "p": "be-",    "hu": "beoszt",   "en": "to assign to a role or schedule", "ex": [["Beosztja a munkásokat.", "She assigns the workers."], ["Be van osztva hétfőre.", "He is scheduled for Monday."]] },
+            { "p": "ki-",    "hu": "kioszt",   "en": "to hand out, to allocate", "ex": [["Kiosztja a feladatokat.", "He hands out the tasks."], ["Kiosztja a jutalmakat.", "She distributes the rewards."]] },
+            { "p": "meg-",   "hu": "megoszt",  "en": "to share (with others)", "ex": [["Megossza a fájlt.", "She shares the file."], ["Megostja a véleményét.", "He shares his opinion."]] },
+            { "p": "fel-",   "hu": "feloszt",  "en": "to partition, to divide up into parts", "ex": [["Felosztja a területet.", "He divides up the territory."], ["Felosztják az örökséget.", "They divide up the inheritance."]] }
+          ]
+        },
+        {
+          "base": "jár — to go regularly",
+          "sub": "going regularly vs expiring",
+          "members": [
+            { "p": "—",    "hu": "jár",    "en": "to go regularly; to attend", "ex": [["Jár edzésre.", "She goes to training."], ["Iskolába jár.", "He attends school."]] },
+            { "p": "be-",  "hu": "bejár",  "en": "to commute in; to enter regularly", "ex": [["Bejár a városba.", "She commutes into the city."], ["Bejárja az egész várost.", "He walks through the whole city."]] },
+            { "p": "le-",  "hu": "lejár",  "en": "to expire; to run out", "ex": [["Lejár az útlevele.", "His passport expires."], ["Lejár a garancia.", "The warranty runs out."]] }
+          ]
+        }
+      ]
+    },
+    "emotions": {
+      "label": "Emotions & social",
+      "note": "<b>meg-</b> often signals a completed change of emotional state. <b>el-</b> can suggest being drawn away by a feeling.",
+      "families": [
+        {
+          "base": "hív — to call",
+          "sub": "calling by name vs phone vs challenging",
+          "members": [
+            { "p": "—",      "hu": "hív",       "en": "to call by name; to call out", "ex": [["Hívja a nevét.", "She calls his name."], ["Engem hívnak.", "They're calling me."]] },
+            { "p": "meg-",   "hu": "meghív",    "en": "to invite", "ex": [["Meghívja a barátját.", "He invites his friend."], ["Meghívtak a bulijukra.", "They invited me to their party."]] },
+            { "p": "fel-",   "hu": "felhív",    "en": "to phone, to call up", "ex": [["Felhívja az anyját.", "She calls her mother."], ["Felhívom holnap.", "I'll call him tomorrow."]] },
+            { "p": "ki-",    "hu": "kihív",     "en": "to challenge; to summon", "ex": [["Kihívja versenyre.", "He challenges her."], ["Kihívta a rendőrséget.", "She summoned the police."]] },
+            { "p": "össze-", "hu": "összehív",  "en": "to convene, to call together", "ex": [["Összehívja a csapatot.", "He calls the team together."], ["Összehívják a gyűlést.", "They convene the meeting."]] }
+          ]
+        },
+        {
+          "base": "vár — to wait / expect",
+          "sub": "waiting for vs expecting from",
+          "members": [
+            { "p": "—",    "hu": "vár",    "en": "to wait; to expect", "ex": [["Vár a buszmegállóban.", "He waits at the bus stop."], ["Babát vár.", "She is expecting a baby."]] },
+            { "p": "meg-", "hu": "megvár", "en": "to wait for someone specifically", "ex": [["Megvárja a barátnőjét.", "She waits for her girlfriend."], ["Megvársz?", "Will you wait for me?"]] },
+            { "p": "el-",  "hu": "elvár",  "en": "to expect something from someone", "ex": [["Elvárja a pontosságot.", "He expects punctuality."], ["Sokat elvárnak tőle.", "A lot is expected of her."]] }
+          ]
+        },
+        {
+          "base": "enged — to allow / let",
+          "sub": "letting in vs letting go vs permitting",
+          "members": [
+            { "p": "—",    "hu": "enged",    "en": "to allow, to let", "ex": [["Engedi, hogy elmenjen.", "She lets him go."], ["Nem engedi be.", "He doesn't let her in."]] },
+            { "p": "be-",  "hu": "beenged",  "en": "to let in", "ex": [["Beengedi a vendégeket.", "He lets the guests in."], ["Nem engedtek be.", "They didn't let me in."]] },
+            { "p": "el-",  "hu": "elenged",  "en": "to let go; to release; to waive", "ex": [["Elengedi a kezét.", "She lets go of his hand."], ["Elengedik a tartozást.", "They waive the debt."]] },
+            { "p": "meg-", "hu": "megenged", "en": "to permit, to allow formally", "ex": [["Megengedi a dohányzást.", "He permits smoking."], ["Nem engedem meg.", "I don't allow it."]] }
+          ]
+        },
+        {
+          "base": "köszön — to greet / thank",
+          "sub": "greeting vs thanking",
+          "members": [
+            { "p": "—",    "hu": "köszön",    "en": "to greet, to say hello", "ex": [["Köszön az ismerősnek.", "She greets the acquaintance."], ["Köszön, és elmegy.", "He says hello and leaves."]] },
+            { "p": "meg-", "hu": "megköszön", "en": "to thank for something specific", "ex": [["Megköszöni a segítséget.", "He thanks for the help."], ["Megköszönte a vacsorát.", "She thanked them for dinner."]] }
+          ]
+        }
+      ]
+    },
+    "digital": {
+      "label": "Digital & tech",
+      "note": "Spatial metaphors applied digitally: <b>fel-</b> = upload, <b>le-</b> = download, <b>be-</b> = log in, <b>ki-</b> = log out.",
+      "families": [
+        {
+          "base": "kapcsol — to switch",
+          "sub": "switching on/off/between",
+          "members": [
+            { "p": "be-",    "hu": "bekapcsol",   "en": "to turn on; to switch on", "ex": [["Bekapcsolja a számítógépet.", "She turns on the computer."], ["Bekapcsol és dolgozni kezd.", "He switches on and starts working."]] },
+            { "p": "ki-",    "hu": "kikapcsol",   "en": "to switch off; to unwind", "ex": [["Kikapcsolja a lámpát.", "He turns off the light."], ["Kikapcsol hétvégén.", "She unwinds at the weekend."]] },
+            { "p": "le-",    "hu": "lekapcsol",   "en": "to switch off a device", "ex": [["Lekapcsolja a tévét.", "She switches off the TV."], ["Lekapcsolta a villanyt.", "He turned off the electricity."]] },
+            { "p": "össze-", "hu": "összekapcsol","en": "to connect two things", "ex": [["Összekapcsolja a két rendszert.", "He connects the two systems."], ["Összekapcsolja az eszközöket.", "She connects the devices."]] }
+          ]
+        },
+        {
+          "base": "küld — to send",
+          "sub": "sending in different directions",
+          "members": [
+            { "p": "—",      "hu": "küld",       "en": "to send", "ex": [["Küld egy e-mailt.", "She sends an email."], ["Küld egy üzenetet.", "He sends a message."]] },
+            { "p": "el-",    "hu": "elküld",     "en": "to send off (dispatch)", "ex": [["Elküldi a levelet.", "She sends off the letter."], ["Elküldtem az e-mailt.", "I sent off the email."]] },
+            { "p": "vissza-","hu": "visszaküld", "en": "to send back", "ex": [["Visszaküldi a csomagot.", "He sends back the parcel."], ["Visszaküldték a dokumentumot.", "They sent the document back."]] },
+            { "p": "át-",    "hu": "átküld",     "en": "to send over, to forward", "ex": [["Átküldöm a fájlt.", "I'll send over the file."], ["Átküldték a kérést.", "They forwarded the request."]] }
+          ]
+        },
+        {
+          "base": "jelentkezik — to log / register",
+          "sub": "logging in vs logging out",
+          "members": [
+            { "p": "be-", "hu": "bejelentkezik", "en": "to log in; to check in", "ex": [["Bejelentkezik a rendszerbe.", "He logs into the system."], ["Bejelentkezik a szállodában.", "She checks in at the hotel."]] },
+            { "p": "ki-", "hu": "kijelentkezik", "en": "to log out; to check out", "ex": [["Kijelentkezik a fiókjából.", "He logs out of his account."], ["Kijelentkezik a hotelből.", "She checks out of the hotel."]] }
+          ]
+        }
+      ]
+    }
+  }
+}
