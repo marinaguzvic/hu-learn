@@ -9,6 +9,14 @@ export function buildSidebar(manifest, navigateFn) {
   const nav = document.getElementById('sidebarNav');
   nav.innerHTML = '';
 
+  // Home button at the top of the nav
+  const homeBtn = document.createElement('button');
+  homeBtn.className = 'nav-home-btn';
+  homeBtn.dataset.navHome = 'true';
+  homeBtn.innerHTML = `<span class="nav-module-icon">🏠</span><span>Home</span>`;
+  homeBtn.addEventListener('click', () => navigateFn(null, null));
+  nav.appendChild(homeBtn);
+
   manifest.modules.forEach(mod => {
     const section = document.createElement('div');
     section.className = 'nav-module';
@@ -24,8 +32,16 @@ export function buildSidebar(manifest, navigateFn) {
       </svg>` : ''}`;
     btn.addEventListener('click', () => {
       if (mod.categories?.length) {
-        btn.classList.toggle('open');
-        list.classList.toggle('open');
+        // Only collapse if clicking an already-active module; always expand otherwise
+        const isActive = btn.classList.contains('active');
+        const isOpen   = list.classList.contains('open');
+        if (isActive && isOpen) {
+          btn.classList.remove('open');
+          list.classList.remove('open');
+        } else {
+          btn.classList.add('open');
+          list.classList.add('open');
+        }
       }
       navigateFn(mod.id, null);
     });
@@ -33,7 +49,7 @@ export function buildSidebar(manifest, navigateFn) {
 
     if (mod.categories?.length) {
       const list = document.createElement('div');
-      list.className = 'nav-category-list';
+      list.className = 'nav-category-list open'; // start expanded
       mod.categories.forEach(cat => {
         const catBtn = document.createElement('button');
         catBtn.className = 'nav-cat-btn';
@@ -54,19 +70,14 @@ export function buildSidebar(manifest, navigateFn) {
 }
 
 export function setActiveNav(moduleId, categoryId) {
+  // home button
+  const homeBtn = document.querySelector('[data-nav-home]');
+  if (homeBtn) homeBtn.classList.toggle('active', !moduleId);
+
   // module buttons
   document.querySelectorAll('.nav-module-btn').forEach(btn => {
     const modId = btn.closest('.nav-module')?.dataset.moduleId;
     btn.classList.toggle('active', modId === moduleId);
-
-    // auto-open if this module is active
-    if (modId === moduleId && categoryId) {
-      btn.classList.add('open');
-      const list = btn.nextElementSibling;
-      if (list?.classList.contains('nav-category-list')) {
-        list.classList.add('open');
-      }
-    }
   });
 
   // category buttons

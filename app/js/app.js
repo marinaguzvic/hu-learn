@@ -97,7 +97,10 @@ export async function navigate(moduleId, categoryId) {
   if (!categoryId) {
     if (gen !== navGeneration) return;
     renderHome(MANIFEST, navigate, moduleId);
-    setBreadcrumb([{ label: modMeta.label }]);
+    setBreadcrumb([
+      { label: 'Home', action: () => navigate(null, null) },
+      { label: modMeta.label },
+    ]);
     return;
   }
 
@@ -109,6 +112,7 @@ export async function navigate(moduleId, categoryId) {
   const catLabel = catMeta?.label || categoryId;
 
   setBreadcrumb([
+    { label: 'Home', action: () => navigate(null, null) },
     { label: modMeta.label, action: () => navigate(moduleId, null) },
     { label: catLabel },
   ]);
