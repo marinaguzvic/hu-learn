@@ -22,4 +22,4 @@ RUN mkdir -p /usr/share/nginx/html/data
 EXPOSE 80
 
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
-  CMD wget -qO- http://localhost/data/manifest.json || exit 1
+  CMD wget -qO- http://localhost/ || exit 1

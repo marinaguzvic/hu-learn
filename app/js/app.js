@@ -32,6 +32,7 @@ const RENDERERS = {
 // ── State ────────────────────────────────────────────────────────────────────
 let MANIFEST  = null;
 let MODULE_CACHE = {};   // { "moduleId": { ...data } }
+let navGeneration = 0;   // incremented on each navigate; stale async work bails out
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
 async function boot() {
@@ -66,33 +67,42 @@ function routeHash() {
 }
 
 export async function navigate(moduleId, categoryId) {
+  const gen = ++navGeneration;
+
   // update URL without triggering hashchange loop
   const target = moduleId
     ? `#${moduleId}${categoryId ? '/' + categoryId : ''}`
     : '#';
   if (location.hash !== target) {
-    history.replaceState(null, '', target || window.location.pathname);
+    history.replaceState(null, '', `${location.pathname}${location.search}${target}`);
   }
 
   setActiveNav(moduleId, categoryId);
 
   if (!moduleId) {
+    if (gen !== navGeneration) return;
     renderHome(MANIFEST, navigate);
     setBreadcrumb([]);
     return;
   }
 
   const modMeta = MANIFEST.modules.find(m => m.id === moduleId);
-  if (!modMeta) { showError(`Module "${moduleId}" not found in manifest.`); return; }
+  if (!modMeta) {
+    if (gen !== navGeneration) return;
+    showError(`Module "${moduleId}" not found in manifest.`);
+    return;
+  }
 
   // show module overview if no category selected
   if (!categoryId) {
+    if (gen !== navGeneration) return;
     renderHome(MANIFEST, navigate, moduleId);
     setBreadcrumb([{ label: modMeta.label }]);
     return;
   }
 
-  const data = await loadModule(moduleId);
+  const data = await loadModule(moduleId, gen);
+  if (gen !== navGeneration) return;
   if (!data) return;
 
   const catMeta = modMeta.categories?.find(c => c.id === categoryId);
@@ -115,7 +125,7 @@ export async function navigate(moduleId, categoryId) {
 }
 
 // ── Data loading ──────────────────────────────────────────────────────────────
-export async function loadModule(moduleId) {
+export async function loadModule(moduleId, generation = navGeneration) {
   if (MODULE_CACHE[moduleId]) return MODULE_CACHE[moduleId];
 
   const modMeta = MANIFEST.modules.find(m => m.id === moduleId);
@@ -124,15 +134,17 @@ export async function loadModule(moduleId) {
   setLoading(true);
   try {
     const res = await fetch(`data/${modMeta.file}`);
+    if (generation !== navGeneration) return null;
     if (!res.ok) throw new Error(`HTTP ${res.status} loading ${modMeta.file}`);
     const data = await res.json();
     MODULE_CACHE[moduleId] = data;
     return data;
   } catch (e) {
+    if (generation !== navGeneration) return null;
     showError(`Failed to load ${modMeta.file}`, e);
     return null;
   } finally {
-    setLoading(false);
+    if (generation === navGeneration) setLoading(false);
   }
 }
 
